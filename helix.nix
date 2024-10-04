@@ -9,10 +9,8 @@
     omnisharp-roslyn
     clojure-lsp
     cmake-language-server
-    nodePackages_latest.vscode-css-languageserver-bin
     gopls
-    nodePackages_latest.vscode-html-languageserver-bin
-    nodePackages_latest.vscode-langservers-extracted
+    # nodePackages_latest.vscode-langservers-extracted
     nodePackages_latest.typescript-language-server
     marksman
     python311Packages.python-lsp-server
@@ -21,6 +19,7 @@
     vhdl-ls
     nodePackages_latest.yaml-language-server
     zls
+    openscad-lsp
   ];
   programs.helix = {
     enable = true;
